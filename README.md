@@ -1,4 +1,7 @@
-# test coverage for  [anymatch (v1.3.0)](https://github.com/es128/anymatch)  [![npm package](https://img.shields.io/npm/v/npmtest-anymatch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-anymatch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-anymatch.svg)](https://travis-ci.org/npmtest/node-npmtest-anymatch)
+# npmtest-anymatch
+
+#### basic test coverage for  [anymatch (v1.3.0)](https://github.com/es128/anymatch)  [![npm package](https://img.shields.io/npm/v/npmtest-anymatch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-anymatch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-anymatch.svg)](https://travis-ci.org/npmtest/node-npmtest-anymatch)
+
 #### Matches strings against configurable strings, globs, regular expressions, and/or functions
 
 [![NPM](https://nodei.co/npm/anymatch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/anymatch)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-anymatch/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-anymatch/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-anymatch/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-anymatch/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-anymatch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-anymatch/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-anymatch/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-anymatch/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-anymatch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-anymatch/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-anymatch/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-anymatch/build/coverage.html/index.html)
 
@@ -88,7 +91,8 @@
     "scripts": {
         "test": "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
     },
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
